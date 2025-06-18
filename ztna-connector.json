@@ -8,6 +8,13 @@
             ],
             "hash": "6ce839f4aa1d40239f83d185caeda1036dfd4515179cd9d8fd98c44495b15a00"
         },
+        "64bit": {
+            "url": "http://192.168.111.210:8081/repository/ztna-connector/ztna-connector/v4.0.0/ztna-connector_windows_amd64.zip",
+            "bin": [
+                "ztna-connector.exe"
+            ],
+            "hash": "d96490b9d6cbd8ada70f9ab668b3173fcf60f3123b1086d6b10e3ee776dd3dd7"
+        },
         "arm64": {
             "url": "http://192.168.111.210:8081/repository/ztna-connector/ztna-connector/v4.0.0/ztna-connector_windows_arm64.zip",
             "bin": [
