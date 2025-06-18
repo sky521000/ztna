@@ -1,0 +1,41 @@
+{
+    "version": "v4.0.0",
+    "architecture": {
+        "32bit": {
+            "url": "http://192.168.111.210:8081/repository/ztna-connector/ztna-connector/v4.0.0/ztna-connector_windows_i386.zip",
+            "bin": [
+                "ztna-connector.exe"
+            ],
+            "hash": "6ce839f4aa1d40239f83d185caeda1036dfd4515179cd9d8fd98c44495b15a00"
+        },
+        "arm64": {
+            "url": "http://192.168.111.210:8081/repository/ztna-connector/ztna-connector/v4.0.0/ztna-connector_windows_arm64.zip",
+            "bin": [
+                "ztna-connector.exe"
+            ],
+            "hash": "ceaaf21785de00480544941e59e1a714c818bf6a313d37df45a15accdb1e24e6"
+        }
+    },
+    "homepage": "http://192.168.111.210:8081/repository/ztna-connector/",
+    "description": "Software to create fast and easy drum rolls.",
+    "persist": [
+        "data",
+        "config.toml"
+    ],
+    "pre_install": [
+        "Write-Host 'Running preinstall command'"
+    ],
+    "post_install": [
+        "Write-Host 'Running postinstall command'"
+    ],
+    "depends": [
+        "git",
+        "foo"
+    ],
+    "shortcuts": [
+        [
+            "drumroll.exe",
+            "drumroll"
+        ]
+    ]
+}
